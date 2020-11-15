@@ -17,8 +17,19 @@ a {
   font-weight: bold;
 }
 
+hr {
+  border: 1px solid rgb(153, 153, 153);
+  margin: 3rem;
+}
+
 img {
   max-width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  width: 66vw;
 }
 
 nav {
@@ -32,6 +43,15 @@ nav a {
   display: inline-block;
 }
 
+table {
+  margin: 0 auto;
+}
+
 .content {
   padding: 1rem;
+}
+
+.intro {
+  margin: 0 auto;
+  width: 66%;
 }
