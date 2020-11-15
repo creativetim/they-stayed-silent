@@ -28,7 +28,7 @@ const displayProof = (recognizedBiden = {}) => {
 export default () => {
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Welcome to React-Static</h1>
+      <h1>They Stayed Silent</h1>
       <table>
         <thead>
           <tr>
