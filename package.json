@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
+    "dayjs": "^1.9.6",
     "eslint": "^6.1.0",
     "eslint-config-react-app": "^5.0.1",
     "eslint-config-react-tools": "^1.1.7",
@@ -28,6 +29,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^4.0.2",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
     "serve": "^11.1.0"
   }
 }

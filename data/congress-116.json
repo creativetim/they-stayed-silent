@@ -130,7 +130,14 @@
         "office": "503 Hart Senate Office Building",
         "phone": "202-224-2315"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/SenSherrodBrown/status/1325157707259768832"
+      }
+    }
   },
   {
     "id": {
@@ -222,7 +229,14 @@
         "office": "511 Hart Senate Office Building",
         "phone": "202-224-3441"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/SenatorCantwell/status/1325135733477298176"
+      }
+    }
   },
   {
     "id": {
@@ -380,7 +394,14 @@
         "office": "509 Hart Senate Office Building",
         "phone": "202-224-4524"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/SenatorCardin/status/1325163874430017536"
+      }
+    }
   },
   {
     "id": {
@@ -505,7 +526,14 @@
         "office": "513 Hart Senate Office Building",
         "phone": "202-224-2441"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/TomCarperforDE/status/1325135315946844160"
+      }
+    }
   },
   {
     "id": {
@@ -582,7 +610,14 @@
         "office": "393 Russell Senate Office Building",
         "phone": "202-224-6324"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/SenBobCasey/status/1325134700302708737"
+      }
+    }
   },
   {
     "id": {
@@ -770,7 +805,14 @@
         "office": "425 Dirksen Senate Office Building",
         "phone": "202-224-3244"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/amyklobuchar/status/1325119366380224513"
+      }
+    }
   },
   {
     "id": {
@@ -919,7 +961,14 @@
         "office": "528 Hart Senate Office Building",
         "phone": "202-224-4744"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/SenatorMenendez/status/1325182185289052160"
+      }
+    }
   },
   {
     "id": {
@@ -1072,7 +1121,14 @@
         "office": "332 Dirksen Senate Office Building",
         "phone": "202-224-5141"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/BernieSanders/status/1325149140309913600"
+      }
+    }
   },
   {
     "id": {
@@ -1180,7 +1236,14 @@
         "office": "731 Hart Senate Office Building",
         "phone": "202-224-4822"
       }
-    ]
+    ],
+    "recognizedBiden": {
+      "date": "11/07/2020",
+      "proof": {
+        "type": "Twitter",
+        "url": "https://twitter.com/stabenow/status/1325122580118827008"
+      }
+    }
   },
   {
     "id": {
@@ -4881,7 +4944,9 @@
         "fax": "202-228-1371"
       }
     ],
-    "recognizedBiden": {}
+    "recognizedBiden": {
+      "lastChecked": "11/17/2020"
+    }
   },
   {
     "id": {

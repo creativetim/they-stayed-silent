@@ -51,6 +51,10 @@ table {
   padding: 1rem;
 }
 
+.twenty {
+  width: 25%;
+}
+
 .intro {
   margin: 0 auto;
   width: 66%;

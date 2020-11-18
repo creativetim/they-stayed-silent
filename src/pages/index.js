@@ -2,10 +2,10 @@ import React from "react";
 import CongressJSON from "../../data/congress-116.json";
 
 import "../app.css";
-import githubLogo from "../../public/github.png"
+import githubLogo from "../../public/github.png";
 
 const displayProof = (recognizedBiden = {}) => {
-  const { date = "", proof = "" } = recognizedBiden;
+  const { date = "", lastChecked = "", proof = "" } = recognizedBiden;
 
   if (!date || !proof) {
     return <span>-</span>;
@@ -17,8 +17,6 @@ const displayProof = (recognizedBiden = {}) => {
         <a href={proof.url} rel="noreferrer" target="_blank">
           {date}
         </a>
-        <br />
-        (Twitter)
       </span>
     );
   }
@@ -50,7 +48,8 @@ export default () => {
             target="_blank"
           >
             monologue
-          </a> (quote begins at 5:23)
+          </a>{" "}
+          (quote begins at 5:23)
         </small>
       </p>
       <hr />
@@ -63,8 +62,11 @@ export default () => {
             <td>
               <strong>Party</strong>
             </td>
-            <td>
+            <td className="twenty">
               <strong>First comment</strong>
+            </td>
+            <td className="twenty">
+              <strong>Last checked</strong>
             </td>
           </tr>
         </thead>
@@ -77,6 +79,7 @@ export default () => {
                 <td align="left">{name.official_full}</td>
                 <td>{currentTerm.party}</td>
                 <td>{displayProof(recognizedBiden)}</td>
+                <td>{recognizedBiden?.lastChecked || "-"}</td>
               </tr>
             );
           })}
